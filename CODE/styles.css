@@ -11,10 +11,40 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --bg-color: #222327;
+    --text-color: #fff;
 }
 
 body {
+    
     background: url("../mountain_view_1.jpg") no-repeat;
     background-size: cover;
+    background-position: center;
+    min-height: 100vh
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
     
+}
+footer {
+    background: #67b1d6;
+    color: white;
+    padding: 5px 10px;
+    margin-top: auto;
+    text-align: center;
+    margin-top: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
 }
