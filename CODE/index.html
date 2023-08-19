@@ -11,7 +11,7 @@
     <link rel="icon" href="../MAUNGA_club_logo.jpg">
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,20 +19,36 @@
 </head>
 
 <body>
-    <div class="snow-flake-animation"></div>
+    <div class="snow-flake-animation">
 
-    <header class="header">
-        <a href="#" class="logo"><img src="../MAUNGA_club_logo-removebg-preview.png ">Logo</a>
-    <nav class="navbar">
-        <a href="#" class="active"> Home</a>
-        <a href="#">About</a>
-        <a href="#">Features</a>
-        <a href="#">Get Started</a>
-        <a href="#">Contact</a>
+    </div>
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="../MAUNGA_club_logo-removebg-preview.png " alt="Logo" class="logo-img">
+            <div class="logo-text">
+                <span class="top-text">Maunga</span>
+                <span class="bottom-text">Club</span>
+            </div>
+        </a>
+
+    <ul class="navbar">
+        <a href="index.html" class="active"> Home</a>
+        <a href="about.html">About Us</a>
+        <a href="features.html">Features</a>
+        <a href="start.html">Get Started</a>
+        <a href="contact.html">Contact</a>
+    </ul>
+
+    <div class="main">
+        <a href="#" class="user"><i class="ri-user-fill"></i>Sign in</a>
+        <a href="#"> Register </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
     </header>
 
     <!-- Script installations-->
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="../CODE/script.js"></script>
 
     <footer>
         <p><small> ©2023 Maunga Club - Website by Rylan Clark Iglesia</small></p>
