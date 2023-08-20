@@ -1,10 +1,12 @@
+/* STYLING FOR FIRST PAGE */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: var(--var-fonte-primaria)
+    font-family: var(--var-fonte-primaria);
+    color: white
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap');
@@ -34,14 +36,14 @@ header {
     padding: 35px 100px 35px 60px;
     background: transparent;
 }
-
+/* LOGO */
 .logo {
     display: flex;
     align-items: flex-start;
     text-decoration: none;
 }
 
-.logo img{
+.logo-img{
     width:150px;
     height:auto;
     margin-right: 10px;
@@ -58,15 +60,15 @@ header {
 
 .top-text {
     font-size: 24px;
-    color:inherit;
+    color:white;
 }
 
 .bottom-text {
     font-size: 18px;
     margin-top: auto;
-    color: inherit
+    color: white;
 }
-
+/* Navigation Bar  */
 .navbar {
     display: flex;
 }
@@ -151,6 +153,140 @@ header {
     }
 
 }
+/* Content Texts / Heading Styles */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content h1 {
+    text-align:center;
+    font-size: 41px;
+    color: white;
+    position: absolute;
+    top:250px;
+}
+
+.content p {
+    color: white
+}
+
+/* STYLING FOR REGISTER POPUP*/
+.modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    color:black;
+}
+
+.modal-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for form inputs */
+.modal-content input[type="text"],
+.modal-content input[type="email"],
+.modal-content input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+}
+
+
+.file-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.file-label {
+    margin-right: 10px;
+}
+
+#file-name {
+    color:black;
+}
+
+/* Style for buttons */
+.modal-content button {
+    background-color: #67b1d6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Additional styling for links or other elements as needed */
+.modal-content a {
+    color: #67b1d6;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.modal-content h1 {
+    color: black
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color:black;
+}
+
+.form-group label[for="file-input-id"] {
+    background-color: var(--var-cor-secundaria);
+    color: black;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
 
 footer {
     background: #67b1d6;
@@ -165,3 +301,4 @@ footer {
     bottom: 0;
 
 }
+/* STYLING FOR  */
