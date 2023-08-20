@@ -1,0 +1,124 @@
+<!-- REGISTER.HTML-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CODE/styles.css">
+    <title> Maunga Club - Ski Chalet Hire Service</title>
+    <link rel="icon" href="../MAUNGA_club_logo.jpg">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5a537cb2e6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="../MAUNGA_club_logo-removebg-preview.png " alt="Logo" class="logo-img">
+            <div class="logo-text">
+                <span class="top-text">Maunga</span>
+                <span class="bottom-text">Club</span>
+            </div>
+        </a>
+    <!-- Navigation Bar-->
+    <ul class="navbar">
+        <a href="index.html" class="active"> Home</a>
+        <a href="about.html">About Us</a>
+        <a href="features.html">Features</a>
+        <a href="start.html">Get Started</a>
+        <a href="contact.html">Contact</a>
+    </ul>
+
+    <div class="main">
+        <a href="#" class="user"><i class="ri-user-fill"></i>Sign in</a>
+        <a href="#" id="register-link"> Register </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+    </header>
+    <div class="container2">
+        <div class="form-box">
+            <h1 id="title">Sign up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" placeholder="Name">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+
+                    <div class="input-field">
+                        <input type="file" placeholder="Proof of ID"> Proof of ID
+                    </div>
+
+                    <div class="input-field">
+                        <input type="file" placeholder="Proof of Physical Address"> Physical Address
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <p>Lost Password <a href="#"> Click Here!</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="button" id="signupBtn">Sign up</button>
+                    <button type="button" id="signinBtn" class="disable">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="../CODE/script.js"></script>
+    <script type="text/javascript">
+        let signupBtn = document.getElementById("signupBtn");
+        let signinBtn = document.getElementById("signinBtn");
+        let nameField = document.getElementById("nameField");
+        let title = document.getElementById("title");
+
+        signinBtn.onclick = function(){
+            nameField.style.maxHeight = "0";
+            title.innerHTML = "Sign In";
+            signupBtn.classList.add("disable");
+            signinBtn.classList.remove("disable");
+        }
+
+        signupBtn.onclick = function(){
+            nameField.style.maxHeight = "60px";
+            title.innerHTML = "Sign Up";
+            signupBtn.classList.remove("disable");
+            signinBtn.classList.add("disable");
+        }
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i = 0; i < reveals.length; i++){
+
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if (revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+</body>
+</html>
