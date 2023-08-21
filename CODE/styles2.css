@@ -1,0 +1,205 @@
+/* STYLING FOR gallery.html PAGE */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--var-fonte-primaria);
+    color: white
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --var-fonte-primaria: 'Poppins', sans-serif;
+    --var-fonte-secundaria: 'Anton', sans-serif;
+    --var-cor-primaria: #67b1d6;
+    --var-cor-secundaria: #fff;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin:0rem;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../maunga_club_cabin.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 100px 35px 60px;
+    background: transparent;
+    z-index: 10;
+}
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
+.logo-img{
+    width:150px;
+    height:auto;
+    margin-right: 10px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.top-text {
+    font-size: 24px;
+    color:white;
+}
+
+.bottom-text {
+    font-size: 18px;
+    margin-top: auto;
+    color: white;
+}
+/* Navigation Bar  */
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 0 5px;
+    color: var(--var-cor-secundaria);
+    transition: all .45s ease;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background: var(--var-cor-primaria);
+}
+
+#menu-icon {
+    font-size: 40px;
+    color: var(--var-cor-secundaria);
+    cursor: pointer;
+    display: none;
+}
+
+.header-btn a {
+    padding: 10px 20px;
+    color: var(--var-cor-secundaria);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header-btn .in {
+    background: var(--var-cor-primaria);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all .50s ease;
+}
+
+.header-btn .in:hover {
+    border: 2px solid var(--var-cor-primaria);
+    background: transparent;
+}
+
+.user:hover,
+a#register-link:hover {
+    background-color: var(--var-cor-primaria);
+    border: 2px solid var(--var-cor-primaria);
+    color: var(--var-cor-secundaria);
+    transition: all .45s ease;
+    border-radius: 5px;
+}
+
+.highlight {
+    display: inline;
+    padding: .25em 0;
+    background: #67b1d6;
+    color: #ffffff;
+    box-shadow: .5em 0 0 #67b1d6, -.5em 0 0 #67b1d6;
+}
+
+@media (max-width: 1530px) {
+    header {
+        padding: 18px 3%;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 1070px) {
+    header {
+        padding: 18px 3%;
+        transition: .2s;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: -800px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: #1b1b1b;
+        transition: all .50s ease;
+        text-align: left;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 1rem;
+        margin: 0.8rem;
+    }
+
+    .navbar.open {
+        top: 100%;
+    }
+
+}
+
+footer {
+    background: #67b1d6;
+    color: white;
+    padding: 5px 10px;
+    margin-top: auto;
+    text-align: center;
+    position: sticky;
+    top: 100%;
+
+}
+/* GALLERY / IMAGES */
+
+.image-track-photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    position: relative;
+    top:240px;
+    left:40px;
+}
+
+.image-track-photos img{
+    width:40%
+}

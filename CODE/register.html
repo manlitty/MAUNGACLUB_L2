@@ -33,7 +33,7 @@
         <a href="index.html" class="active"> Home</a>
         <a href="about.html">About Us</a>
         <a href="features.html">Features</a>
-        <a href="start.html">Get Started</a>
+        <a href="gallery.html">Gallery</a>
         <a href="contact.html">Contact</a>
     </ul>
 
@@ -58,7 +58,7 @@
                         <input type="email" placeholder="Email">
                     </div>
 
-                    <div class="input-field">
+                    <div class="input-field" id="filechoose">
                         <input type="file" placeholder="Proof of ID"> Proof of ID
                     </div>
 
@@ -86,12 +86,14 @@
         let signinBtn = document.getElementById("signinBtn");
         let nameField = document.getElementById("nameField");
         let title = document.getElementById("title");
+        let filechoose = document.getElementById("filechoose");
 
         signinBtn.onclick = function(){
             nameField.style.maxHeight = "0";
             title.innerHTML = "Sign In";
             signupBtn.classList.add("disable");
             signinBtn.classList.remove("disable");
+            filechoose.classList.add("disable")
         }
 
         signupBtn.onclick = function(){
@@ -99,6 +101,7 @@
             title.innerHTML = "Sign Up";
             signupBtn.classList.remove("disable");
             signinBtn.classList.add("disable");
+            filechoose.classList.remove("disable")
         }
         window.addEventListener('scroll', reveal);
 
