@@ -126,9 +126,9 @@ a#register-link:hover {
 .highlight {
     display: inline;
     padding: .25em 0;
-    background: #67b1d6;
+    background: #2696E9;
     color: #ffffff;
-    box-shadow: .5em 0 0 #67b1d6, -.5em 0 0 #67b1d6;
+    box-shadow: .5em 0 0 #2696E9, -.5em 0 0 #2696E9;
 }
 
 @media (max-width: 1530px) {
@@ -187,7 +187,6 @@ p#one {
     text-align: center;
     top:300px;
 }
-
 
 
 
@@ -309,33 +308,36 @@ p#one {
     display: inline-block;
 }
 /*GET STARTED BUTTON */
-.getstartedbutton {
-    position:absolute;
-    bottom:-100px;
-    right: 20px;
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
+
+.btn {
+    font-size:18px;
     font-weight: bold;
-    border: 2px solid #1b1b1b;
-    background: black;
-    cursor: pointer;
+    background: #2696E9;
+    width:160px;
+    padding:20px;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    color:#fff;
     border-radius: 5px;
+    cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    position: absolute;
+    top:450px;
+    right:25px;
 }
 
-.getstartedbutton:hover, .getstartedbutton:focus, .getstartedbutton:active {
+.btn:hover, .btn:focus, .btn:active{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+
 }
-/* SECTION SCROLL DOWN*/
+/* TEXT CARD SECTION SCROLL DOWN*/
 section {
     min-height: 100vh;
     display: flex;
@@ -405,6 +407,14 @@ section .cards .text-card h2 {
     section .cards {
         flex-direction: column;
     }
+}
+/* TEXT AT THE BOTTOM OF SECTION CARDS*/
+.ep {
+    position: absolute;
+    font-size: 24px;
+    bottom:-90px;
+    right:220px;
+
 }
 
 .reveal{

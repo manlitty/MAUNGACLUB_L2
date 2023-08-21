@@ -28,7 +28,7 @@ body {
 .container {
     width: 100%;
     min-height: 100vh;
-    background: url(../maunga_club_cabin.jpg);
+    background: rgb(97, 92, 92);
     background-size: cover;
     background-attachment: fixed;
     background-position: right;
@@ -189,6 +189,124 @@ footer {
     top: 100%;
 
 }
+
+/* STYLING FOR REGISTER POPUP*/
+.modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    color:black;
+}
+
+.modal-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for form inputs */
+.modal-content input[type="text"],
+.modal-content input[type="email"],
+.modal-content input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+}
+
+/* CHOOSE FILE BUTTON STYLES */
+.file-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.file-label {
+    margin-right: 10px;
+}
+
+#file-name {
+    color:black;
+}
+
+/* Style for buttons (Responsive 3 line icon) */
+.modal-content button {
+    background-color: #67b1d6;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    bottom: -16px;
+    right: 6px;
+}
+
+
+.modal-content a {
+    color: #67b1d6;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.modal-content h1 {
+    color: black
+}
+/* Sign up form*/
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color:black;
+}
+
+.form-group label[for="file-input-id"] {
+    background-color: var(--var-cor-secundaria);
+    color: black;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
 /* GALLERY / IMAGES */
 
 .image-track-photos {
@@ -201,5 +319,14 @@ footer {
 }
 
 .image-track-photos img{
-    width:40%
+    width:60%
+}
+
+h3 {
+    position: absolute;
+    text-align: center;
+    top:150px;
+    right: 580px;
+    font-size: 46px;
+    
 }
