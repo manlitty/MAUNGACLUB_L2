@@ -321,12 +321,45 @@ footer {
 .image-track-photos img{
     width:60%
 }
-
+/* GALLERY TEXT HEADING */
 h3 {
     position: absolute;
     text-align: center;
-    top:150px;
+    top:92px;
     right: 580px;
     font-size: 46px;
     
+}
+
+.pukeko-texts {
+    position:absolute;
+    top:190px;
+    right:120px;
+}
+.pukeko-texts p {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 150px;
+}
+
+.kereru-texts {
+    position:absolute;
+    top:360px;
+    right:120px;
+}
+.kereru-texts p {
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 155px;
+}
+
+.kakapo-texts {
+    position:absolute;
+    bottom:257px;
+    right:120px;
+}
+.kakapo-texts p {
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 155px;
 }

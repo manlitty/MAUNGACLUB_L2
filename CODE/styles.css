@@ -337,7 +337,7 @@ p#one {
     transform: scale(1.1);
 
 }
-/* TEXT CARD SECTION SCROLL DOWN*/
+/* TEXT CARD SECTION SCROLL DOWN (INDEX.HTML)*/
 section {
     min-height: 100vh;
     display: flex;
@@ -416,7 +416,7 @@ section .cards .text-card h2 {
     right:220px;
 
 }
-
+/* TO REVEAL THE TEXTS*/
 .reveal{
     position: relative;
     transform:translateY(150px);
@@ -430,7 +430,7 @@ section .cards .text-card h2 {
 }
 
 
-
+/*FOOTER*/
 footer {
     background: #67b1d6;
     color: white;
@@ -538,3 +538,100 @@ form p a{
     background: #eaeaea;
     color: #555;
 }
+
+/* styles for about.html */ 
+
+.content h2{
+    position: absolute;
+    top: 250px;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding: 0 5px;
+    background: linear-gradient(to bottom,transparent 50%,#2696E9);
+}
+
+/* SECTION FOR ABOUT.HTML */
+#box1 {
+    background-color: #2696E9 ;
+    padding: 200px ;
+    border: 1px solid green ;
+    margin-bottom: 50px;
+}
+
+#box1 h3 {
+    font-size: 45px;
+    position: absolute;
+    bottom:-130px;
+    left:115px;
+    text-align: center;
+}
+
+#box1 p {
+    text-align: justify;
+    position: relative;
+    left:-80px;
+}
+
+#box1 img {
+    height:40%;
+    width:15%;
+    position:absolute;
+    right:100px;
+    bottom:-450px;
+}
+
+
+/* SECTION 2 FOR ABOUT.HTML */
+
+#box2 {
+    background-color: #2696E9 ;
+    padding: 200px ;
+    z-index: -2;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#box2 h1.reveal{
+    font-size: 41px;
+}
+
+#box2 h2.reveal{
+    font-size: 41px;
+}
+
+#box2 h3.reveal{
+    font-size: 41px;
+}
+
+
+
+/* DOWN ARROW ANIMATION / STYLE */
+.arrow {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #2696E9;
+    animation: bounce 1s infinite;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) translateY(10px);
+    }
+}
+
+
+
+
