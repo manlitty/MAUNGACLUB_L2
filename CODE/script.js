@@ -88,8 +88,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 200)
 });
 
-//GALLERY.HTML JAVASCRIPT
-
 //ABOUT.HTML JAVASCRIPT
 
 
@@ -105,4 +103,9 @@ arrow.addEventListener('click', () => {
         top: targetPosition,
         behavior: 'smooth'
     });
+
+//SNOW ANIMATION
+
+
+
 });

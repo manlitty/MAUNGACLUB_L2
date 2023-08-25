@@ -6,7 +6,8 @@
     text-decoration: none;
     list-style: none;
     font-family: var(--var-fonte-primaria);
-    color: white
+    color: white;
+    scroll-behavior: smooth;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap');
@@ -586,23 +587,218 @@ form p a{
 
 #box2 {
     background-color: #2696E9 ;
-    padding: 200px ;
+    padding: 300px ;
     z-index: -2;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 
+/* BOX2 KAKAPO H1 HEADER */
 #box2 h1.reveal{
-    font-size: 41px;
+    font-size: 45px;
+    position: absolute;
+    bottom:-750px;
+    left:115px;
+    text-align: center;
 }
 
-#box2 h2.reveal{
-    font-size: 41px;
+#box2 p {
+    text-align: justify;
+    position: relative;
+    left:-185px;
+    font-size: 24px;
+    bottom:100px;
+}
+/* BOX2  */
+
+#box2 img.photo1-kakapo{
+    position: absolute;
+    width: 25vw;
+    left:108px;
+    bottom:-1370px;
+    border: 2px solid #333; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+       
+}
+/* BUNK BEDS*/
+
+/* CABIN EXTERIOR */
+#box2 img.photo2-kakapo{
+    position: absolute;
+    width:25vw;
+    height:32vw;
+    right: 50px;
+    bottom:-1140px;
+    border: 2px solid #333; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-#box2 h3.reveal{
-    font-size: 41px;
+
+/* OUTSIDE VIEW */
+#box2 img.photo3-kakapo{
+    width:25vw;
+    height: 16.5vw;
+    position: absolute;
+    left:455px;
+    bottom:-1370px;
+    border: 2px solid #333; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+/* HALLWAY */
+#box2 img.photo4-kakapo{
+    width:25vw;
+    position: absolute;
+    right:195px;
+    bottom: -1376px; /* Adjust the vertical position */
+    border: 2px solid #333; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* SECTION 3 - kereru FOR ABOUT.HTML */
+#box3 {
+    background-color: #2696E9 ;
+    padding: 320px ;
+    z-index: -2;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#box3 h1.reveal{
+    font-size: 45px;
+    position: absolute;
+    left:108px;
+    bottom:-1750px;
+    text-align: center;
+}
+
+#box3 p {
+    text-align: justify;
+    position: relative;
+    right: 207px;
+    bottom:138px;
+    font-size: 20px;
+}
+
+/* BEDROOM */
+#box3 img.photo1-kereru {
+    position: absolute;
+    width: 25vw;
+    left: 108px; /* HORIZONTAL POSTIONING*/ 
+    bottom: -2310px; /* VERTICAL POSITION */
+    border: 2px solid #333; /* BORDER */
+    border-radius: 10px; /* FOR ROUNDED CORNERS */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* OUTSIDE VIEW */
+#box3 img.photo2-kereru{
+    position: absolute;
+    width: 25vw;
+    height:17vw;
+    right: 407px;
+    bottom: -2309px; /* Adjust the vertical position */
+    border: 2px solid #333; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* DOUBLE BEDS */
+#box3 img.photo3-kereru{
+    position: absolute;
+    width: 25vw;
+    height:16.5vw;
+    right: 46px;
+    bottom: -1940px; /* Adjust the vertical position */
+    border: 2px solid #333; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* KITCHEN */
+#box3 img.photo4-kereru {
+    position: absolute;
+    width: 25vw;
+    right: 46px;
+    bottom: -2200px; /* Adjust the vertical position */
+    border: 2px solid #333; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* SECTION 4 - pukeko FOR ABOUT.HTML */
+#box4 {
+    background-color: #2696E9 ;
+    padding: 300px ;
+    z-index: -2;
+    margin-top: 50px;
+}
+
+#box4 h1.reveal{
+    font-size: 45px;
+    position: absolute;
+    left:108px;
+    bottom:-2750px;
+    text-align: center;
+}
+
+#box4 p {
+    text-align: justify;
+    position: relative;
+    right: 190px;
+    bottom:130px;
+    font-size: 20px;
+}
+
+/* ADULT BEDROOM */
+
+#box4 img.photo1-pukeko {
+    position: absolute;
+    width: 25vw;
+    left: 100px; /* HORIZONTAL POSTIONING*/ 
+    bottom: -3340px; /* VERTICAL POSITION */
+    border: 2px solid #333; /* BORDER */
+    border-radius: 10px; /* FOR ROUNDED CORNERS */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#box4 img.photo2-pukeko {
+    position: absolute;
+    width: 25vw;
+    right: 450px; /* HORIZONTAL POSTIONING*/ 
+    bottom: -3340px; /* VERTICAL POSITION */
+    border: 2px solid #333; /* BORDER */
+    border-radius: 10px; /* FOR ROUNDED CORNERS */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#box4 img.photo3-pukeko {
+    position: absolute;
+    width: 25vw;
+    right: 20px; /* HORIZONTAL POSTIONING*/ 
+    bottom: -3250px; /* VERTICAL POSITION */
+    border: 2px solid #333; /* BORDER */
+    border-radius: 10px; /* FOR ROUNDED CORNERS */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#box4 img.photo4-pukeko {
+    position: absolute;
+    width: 25vw;
+    right:20px; /* HORIZONTAL POSTIONING*/ 
+    bottom: -2950px; /* VERTICAL POSITION */
+    border: 2px solid #333; /* BORDER */
+    border-radius: 10px; /* FOR ROUNDED CORNERS */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 
 
 
@@ -631,7 +827,3 @@ form p a{
         transform: translateX(-50%) translateY(10px);
     }
 }
-
-
-
-
