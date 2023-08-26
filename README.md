@@ -6,4 +6,5 @@ August 20,2023 - js script, styles, index, about.html, register.html/getstarted 
 August 21,2023 - Largest Commits to date
 August 22, 2023 - Commit
 August 26, 2023 - Big commit (Primarily to about.html)
+August 27, 2023 - Several commits to different HTML pages
 

@@ -68,7 +68,7 @@
                         <i class="fa-solid fa-lock"></i>
                         <input type="password" placeholder="Password">
                     </div>
-                    <div class="btn2" id="submitBtnContainer">
+                    <div class="btn2" id="submitBtnContainer" style="display: none;">
                         <a href="confirmation.html">Submit</a>
                     </div>
                     <p>Lost Password <a href="#"> Click Here!</a></p>
@@ -88,6 +88,8 @@
         let nameField = document.getElementById("nameField");
         let title = document.getElementById("title");
         let filechoose = document.getElementById("filechoose");
+
+        submitBtnContainer.style.display = "none";
 
         signinBtn.onclick = function(){
             nameField.style.maxHeight = "0";
