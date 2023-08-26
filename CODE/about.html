@@ -151,6 +151,14 @@
     </div>
     <script type="text/javascript" src="../CODE/script.js"></script>
     <script type="text/javascript"></script>
+    <script>
+        const scrollArrow = document.getElementById('scrollArrow');
+    const otherSection = document.getElementById('box1');
+
+    scrollArrow.addEventListener('click', () => {
+        otherSection.scrollIntoView({ behavior: 'smooth' });
+    });
+    </script>
     <footer>
         <p><small> ©2023 Maunga Club - Website by Rylan Clark Iglesia</small></p>
     </footer>

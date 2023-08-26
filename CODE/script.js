@@ -103,9 +103,4 @@ arrow.addEventListener('click', () => {
         top: targetPosition,
         behavior: 'smooth'
     });
-
-//SNOW ANIMATION
-
-
-
 });

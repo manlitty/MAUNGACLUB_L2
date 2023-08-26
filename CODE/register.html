@@ -68,6 +68,9 @@
                         <i class="fa-solid fa-lock"></i>
                         <input type="password" placeholder="Password">
                     </div>
+                    <div class="btn2" id="submitBtnContainer">
+                        <a href="confirmation.html">Submit</a>
+                    </div>
                     <p>Lost Password <a href="#"> Click Here!</a></p>
                 </div>
                 <div class="btn-field">
@@ -92,6 +95,9 @@
             signupBtn.classList.add("disable");
             signinBtn.classList.remove("disable");
             filechoose.classList.add("disable")
+
+            var submitBtnContainer = document.getElementById("submitBtnContainer");
+            submitBtnContainer.style.display = "block"; 
         }
 
         signupBtn.onclick = function(){
@@ -100,7 +106,12 @@
             signupBtn.classList.remove("disable");
             signinBtn.classList.add("disable");
             filechoose.classList.remove("disable")
+
+            var submitBtnContainer = document.getElementById("submitBtnContainer");
+            submitBtnContainer.style.display = "none";
         }
+
+        
         window.addEventListener('scroll', reveal);
 
         function reveal(){
@@ -120,6 +131,7 @@
                 }
             }
         }
+        
     </script>
 </body>
 </html>

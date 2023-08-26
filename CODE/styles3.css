@@ -1,0 +1,330 @@
+/* STYLES FOR CONTACT.HTML */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--var-fonte-primaria);
+    color: white
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --var-fonte-primaria: 'Poppins', sans-serif;
+    --var-fonte-secundaria: 'Anton', sans-serif;
+    --var-cor-primaria: #67b1d6;
+    --var-cor-secundaria: #fff;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin:0rem;
+    overflow: hidden;
+    background: url(../mountain_view_dark.jpg) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 100px 35px 60px;
+    background: transparent;
+    z-index: 10;
+}
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
+.logo-img{
+    width:150px;
+    height:auto;
+    margin-right: 10px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.top-text {
+    font-size: 24px;
+    color:white;
+}
+
+.bottom-text {
+    font-size: 18px;
+    margin-top: auto;
+    color: white;
+}
+/* Navigation Bar  */
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 0 5px;
+    color: var(--var-cor-secundaria);
+    transition: all .45s ease;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background: var(--var-cor-primaria);
+}
+
+#menu-icon {
+    font-size: 40px;
+    color: var(--var-cor-secundaria);
+    cursor: pointer;
+    display: none;
+}
+
+.header-btn a {
+    padding: 10px 20px;
+    color: var(--var-cor-secundaria);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header-btn .in {
+    background: var(--var-cor-primaria);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all .50s ease;
+}
+
+.header-btn .in:hover {
+    border: 2px solid var(--var-cor-primaria);
+    background: transparent;
+}
+
+.user:hover,
+a#register-link:hover {
+    background-color: var(--var-cor-primaria);
+    border: 2px solid var(--var-cor-primaria);
+    color: var(--var-cor-secundaria);
+    transition: all .45s ease;
+    border-radius: 5px;
+}
+
+/* STYLING FOR REGISTER POPUP*/
+.modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    color:black;
+}
+
+.modal-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for form inputs */
+.modal-content input[type="text"],
+.modal-content input[type="email"],
+.modal-content input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+}
+
+/* CHOOSE FILE BUTTON STYLES */
+.file-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.file-label {
+    margin-right: 10px;
+}
+
+#file-name {
+    color:black;
+}
+
+/* Style for buttons (Responsive 3 line icon) */
+.modal-content button {
+    background-color: #67b1d6;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    bottom: -16px;
+    right: 6px;
+}
+
+
+.modal-content a {
+    color: #67b1d6;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.modal-content h1 {
+    color: black
+}
+/* Sign up form*/
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color:black;
+}
+
+.form-group label[for="file-input-id"] {
+    background-color: var(--var-cor-secundaria);
+    color: black;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* STYLES FOR CONTACT FORM */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h3{
+    color: black;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.container form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: none;
+    background: black;
+    font-size: 16px;
+}
+
+
+.container form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    position: relative;
+    right:25px;
+    bottom:-55px;
+}
+
+.container form button{
+    padding: 15px;
+    background: #67b1d6;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 20px auto 0;
+    width: 150px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.container form button:hover, .container form button:focus, .container form button:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.container div.contact-right {
+    background: #67b1d6;
+    display: flex;
+    flex-direction: column;
+    padding: 5.5vw 5vw;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    border-radius: 5px;
+    right:20px;
+    bottom:-55px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}

@@ -5,4 +5,5 @@ This is my fourth commit (logo + javascript) August 20, 2023
 August 20,2023 - js script, styles, index, about.html, register.html/getstarted commit
 August 21,2023 - Largest Commits to date
 August 22, 2023 - Commit
+August 26, 2023 - Big commit (Primarily to about.html)
 
