@@ -129,7 +129,6 @@ a#register-link:hover {
     padding: .25em 0;
     background: #2696E9;
     color: #ffffff;
-    box-shadow: .5em 0 0 #2696E9, -.5em 0 0 #2696E9;
 }
 
 @media (max-width: 1530px) {
@@ -219,10 +218,10 @@ p#one {
 .close {
     position: absolute;
     top: 10px;
-    right: 12px;
+    right: 10px;
     font-size: 20px;
     cursor: pointer;
-    color:black;
+    color:#333;
 }
 
 .modal-header {
@@ -578,7 +577,8 @@ form p a{
     font-size: 60px;
     letter-spacing: 2px;
     padding: 0 5px;
-    background: linear-gradient(to bottom,transparent 50%,#2696E9);
+    background: #2696E9;
+    padding: 0.25em 0;
 }
 
 /* SECTION FOR ABOUT.HTML */
