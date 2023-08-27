@@ -309,7 +309,7 @@ p#one {
     display: inline-block;
 }
 
-/* TEXT CARD SECTION SCROLL DOWN (INDEX.HTML)*/
+/* TEXT CARD SECTION SCROLL DOWN */
 section#two{
     min-height: 10vh;
     display: flex;
@@ -383,7 +383,7 @@ section#two .cards .text-card h2 {
         flex-direction: column;
     }
 }
-
+/* REVEAL TEXTS AND IMAGES */
 .reveal{
     position: relative;
     transform:translateY(150px);
@@ -425,6 +425,7 @@ section#two .cards .text-card h2 {
     color: purple;
 }
 
+/* FOOTER */
 footer {
     background: #67b1d6;
     color: white;

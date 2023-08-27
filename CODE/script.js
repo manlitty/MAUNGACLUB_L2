@@ -1,3 +1,4 @@
+// SCROLL ANIMATION REVEAL
 window.addEventListener('scroll', reveal);
 
         function reveal(){
@@ -43,7 +44,7 @@ menu.onclick = () => {
     menu.classList.toggle('bx-x')
     navbar.classList.toggle('open')
 }
-
+// SIGNUP POPUP MODAL
 document.addEventListener('DOMContentLoaded', function () {
     const modal = document.getElementById('signup-modal');
     const registerLink = document.getElementById('register-link');
