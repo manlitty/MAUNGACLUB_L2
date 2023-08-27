@@ -318,6 +318,7 @@ section#two{
     position: absolute;
     bottom:-600px;
     background: rgb(71, 159, 169);
+    width: 100%;
 }
 
 section#two .container {

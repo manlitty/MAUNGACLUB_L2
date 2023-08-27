@@ -6,7 +6,7 @@
     text-decoration: none;
     list-style: none;
     font-family: var(--var-fonte-primaria);
-    color: white
+    color: white;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap');
@@ -28,7 +28,7 @@ body {
 .container {
     width: 100%;
     min-height: 100vh;
-    background: rgb(97, 92, 92);
+    background: rgb(238, 114, 193);
     background-size: cover;
     background-attachment: fixed;
     background-position: right;
@@ -334,34 +334,29 @@ h3 {
 .kakapo-texts {
     position:absolute;
     top:190px;
-    right:120px;
+    right:620px;
 }
 .kakapo-texts p {
     font-weight: bold;
     font-size: 36px;
-    letter-spacing: 150px;
-    position: relative;
-    bottom:0px;
 }
 
 .kereru-texts {
     position:absolute;
     top:360px;
-    right:120px;
+    right:640px;
 }
 .kereru-texts p {
     font-weight: bold;
-    font-size: 32px;
-    letter-spacing: 155px;
+    font-size: 36px;
 }
 
 .pukeko-texts {
     position:absolute;
-    bottom:225px;
-    right:120px;
+    bottom:257px;
+    right:630px;
 }
 .pukeko-texts p {
     font-weight: bold;
-    font-size: 32px;
-    letter-spacing: 155px;
+    font-size: 36px;
 }
