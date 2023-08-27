@@ -372,6 +372,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(71, 159, 169);
 }
 
 section:nth-child(1) {
@@ -868,4 +869,16 @@ form p a{
     }
 }
 
-/* CONTACT US PAGE STYLES */
+/* FEATURES.HTML STYLES */
+
+.container-features h2{
+    position: absolute;
+    right:550px;
+    top: 250px;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding: 0 5px;
+    background: #2696E9;
+    padding: 0.25em 0;
+}
