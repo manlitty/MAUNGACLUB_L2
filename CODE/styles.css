@@ -642,6 +642,10 @@ form p a{
     font-size: 24px;
     bottom:100px;
 }
+
+u {
+    text-decoration: underline;
+}
 /* BOX2 IMAGES  */
 
 /* BUNK BEDS*/
@@ -649,7 +653,7 @@ form p a{
     position: absolute;
     width: 25vw;
     left:108px;
-    bottom:-1370px;
+    bottom:-1300px;
     border: 2px solid #333; /* Add a border */
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -662,7 +666,7 @@ form p a{
     width:25vw;
     height:32vw;
     right: 50px;
-    bottom:-1140px;
+    bottom:-1050px;
     border: 2px solid #333; /* Add a border */
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -675,7 +679,7 @@ form p a{
     height: 16.5vw;
     position: absolute;
     left:455px;
-    bottom:-1370px;
+    bottom:-1300px;
     border: 2px solid #333; /* Add a border */
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -686,7 +690,7 @@ form p a{
     width:25vw;
     position: absolute;
     right:195px;
-    bottom: -1376px; /* Adjust the vertical position */
+    bottom: -1300px; /* Adjust the vertical position */
     border: 2px solid #333; /* Add a border */
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -710,7 +714,7 @@ form p a{
     font-size: 45px;
     position: absolute;
     left:108px;
-    bottom:-1750px;
+    bottom:-1550px;
     text-align: center;
 }
 
@@ -719,9 +723,9 @@ form p a{
 #box3 p {
     text-align: justify;
     position: relative;
-    right: 207px;
+    right: 215px;
     bottom:138px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 /* BOX3 IMAGES*/
@@ -731,7 +735,7 @@ form p a{
     position: absolute;
     width: 25vw;
     left: 108px; /* HORIZONTAL POSTIONING*/ 
-    bottom: -2310px; /* VERTICAL POSITION */
+    bottom: -2030px; /* VERTICAL POSITION */
     border: 2px solid #333; /* BORDER */
     border-radius: 10px; /* FOR ROUNDED CORNERS */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -742,8 +746,8 @@ form p a{
     position: absolute;
     width: 25vw;
     height:17vw;
-    right: 407px;
-    bottom: -2309px; /* Adjust the vertical position */
+    right: 500px;
+    bottom: -2030px; /* Adjust the vertical position */
     border: 2px solid #333; /* Add a border */
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -755,7 +759,7 @@ form p a{
     width: 25vw;
     height:16.5vw;
     right: 46px;
-    bottom: -1940px; /* Adjust the vertical position */
+    bottom: -1750px; /* Adjust the vertical position */
     border: 2px solid #333; /* Add a border */
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -766,7 +770,7 @@ form p a{
     position: absolute;
     width: 25vw;
     right: 46px;
-    bottom: -2200px; /* Adjust the vertical position */
+    bottom: -2030px; /* Adjust the vertical position */
     border: 2px solid #333; /* Add a border */
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -786,7 +790,7 @@ form p a{
     font-size: 45px;
     position: absolute;
     left:108px;
-    bottom:-2750px;
+    bottom:-2400px;
     text-align: center;
 }
 
@@ -795,7 +799,7 @@ form p a{
     position: relative;
     right: 190px;
     bottom:130px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /* ADULT BEDROOM */
@@ -804,7 +808,7 @@ form p a{
     position: absolute;
     width: 25vw;
     left: 100px; /* HORIZONTAL POSTIONING*/ 
-    bottom: -3340px; /* VERTICAL POSITION */
+    bottom: -2995px; /* VERTICAL POSITION */
     border: 2px solid #333; /* BORDER */
     border-radius: 10px; /* FOR ROUNDED CORNERS */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -814,7 +818,7 @@ form p a{
     position: absolute;
     width: 25vw;
     right: 450px; /* HORIZONTAL POSTIONING*/ 
-    bottom: -3340px; /* VERTICAL POSITION */
+    bottom: -2995px; /* VERTICAL POSITION */
     border: 2px solid #333; /* BORDER */
     border-radius: 10px; /* FOR ROUNDED CORNERS */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -824,7 +828,7 @@ form p a{
     position: absolute;
     width: 25vw;
     right: 20px; /* HORIZONTAL POSTIONING*/ 
-    bottom: -3250px; /* VERTICAL POSITION */
+    bottom: -2990px; /* VERTICAL POSITION */
     border: 2px solid #333; /* BORDER */
     border-radius: 10px; /* FOR ROUNDED CORNERS */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -834,7 +838,7 @@ form p a{
     position: absolute;
     width: 25vw;
     right:20px; /* HORIZONTAL POSTIONING*/ 
-    bottom: -2950px; /* VERTICAL POSITION */
+    bottom: -2670px; /* VERTICAL POSITION */
     border: 2px solid #333; /* BORDER */
     border-radius: 10px; /* FOR ROUNDED CORNERS */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
